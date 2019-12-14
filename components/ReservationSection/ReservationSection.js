@@ -18,8 +18,6 @@ class ReservationSection extends React.Component{
                     position: absolute;
                     left: 50%;
                     top: 100px;
-                    color :#9b9b9b;
-                    text-align : center
                 }
                 .reservation-wrapper h1{
                      font-size: 43px;
