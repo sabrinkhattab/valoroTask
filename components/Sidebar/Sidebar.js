@@ -1,6 +1,7 @@
 import React from 'react'
 import SearchInput from "../Search/SearchInput";
 import BookingItem from "../BookingItem/BookingItem";
+import CreateBooking from "../CreateBooking/CreateBooking";
 
 class Sidebar extends React.Component{
     constructor(props){
@@ -11,11 +12,6 @@ class Sidebar extends React.Component{
             filteredData : this.props.Recurits
         }
     }
-    // componentDidMount() {
-    //     this.setState({
-    //         filteredData: this.props.Recurits
-    //     });
-    // }
 
     searchHandler(event){
         let currentList = [];
@@ -52,6 +48,7 @@ class Sidebar extends React.Component{
             <div className="sidebar-container">
                 <SearchInput handleData={this.searchHandler}/>
                 {RecuritsList}
+                <CreateBooking />
 
                 <style jsx>{`
                 p{
@@ -60,7 +57,8 @@ class Sidebar extends React.Component{
                 .sidebar-container{
                 width :350px;
                 height: 100vh;
-                background-color : #ebebe5
+                background-color : #ebebe5;
+                overflow:scroll;
                 }
                 `
                 }

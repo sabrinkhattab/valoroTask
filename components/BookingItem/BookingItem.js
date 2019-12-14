@@ -3,15 +3,19 @@ import StatusIcons from "../StatusIcons/StatusIcons";
 import NightsAndGuests from "../NightsAndGuests/NightsAndGuests";
 
 class BookingItem extends React.Component{
+    constructor(props){
+        super(props)
+        this.getDate= this.getDate.bind(this)
 
-   // getDate = (TimeStamp)=>{
-   //      var Date = new Date( TimeStamp* 1000);
-   //      return `${Date.getDate()}/${Date.getMonth()}/${Date.getFullYear()}`
-   //  }
+    }
+   getDate(TimeStamp){
+        let date = new Date( TimeStamp* 1000);
+        return `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`
+    }
 
 
     render() {
-const date = this.props.time
+const timeStamp = this.props.time
 
         return(
             <div className="bookingItem-wrapper">
@@ -19,7 +23,7 @@ const date = this.props.time
                 <div className="test">
                     <div className="guest-details">
                         <p className="name">{this.props.GuestName}</p>
-                        <p className="booking-date">{this.props.time}</p>
+                        <p className="booking-date">{this.getDate(timeStamp)}</p>
                     </div>
                     <p className="home-details">3 Bedrooms Condo in Bahi</p>
                     <span className="arrival-date">29 May 2019,</span>
