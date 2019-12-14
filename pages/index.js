@@ -1,6 +1,5 @@
 import Error from 'next/error'
 import Link from 'next/link'
-import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar/Sidebar";
 import ReservationSection from "../components/ReservationSection/ReservationSection";
 import fetch from 'isomorphic-unfetch';

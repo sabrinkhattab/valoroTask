@@ -35,7 +35,7 @@ class Sidebar extends React.Component{
 
             //searchInput is empty
         }else{
-            newList = this.props.data;
+            newList = this.props.Recurits;
             this.setState({
                 filteredData : newList
             })
@@ -46,7 +46,7 @@ class Sidebar extends React.Component{
 
     render() {
         const RecuritsList = this.state.filteredData.map(item => {
-            return <BookingItem  GuestName={item.CandidateName} salary={item.salary} time={item.createdAt}/>
+            return <BookingItem key={item.id} GuestName={item.CandidateName} salary={item.salary} time={item.createdAt}/>
         })
         return(
             <div className="sidebar-container">

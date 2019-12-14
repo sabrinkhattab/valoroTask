@@ -49,16 +49,17 @@ var ReservationSection = function (_React$Component) {
                     fileName: _jsxFileName,
                     lineNumber: 8
                 }
-            }, "reservation", _react2.default.createElement("img", { src: "/reservation.png", __source: {
+            }, _react2.default.createElement("h1", {
+                __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 10
+                    lineNumber: 9
                 }
-            }), _react2.default.createElement("style", {
+            }, "Reservation"), _react2.default.createElement("style", {
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 11
                 }
-            }, "\n                .reservation-wrapper{\n                    width : 300px;\n                    height:auto;\n                    background-color:yellow ;\n                    position: absolute;\n                    left: 50%;\n                    top: 100px;\n                }\n                \n                \n                \n                "));
+            }, "\n                .reservation-wrapper{\n                    width : 300px;\n                    height:auto;\n                    position: absolute;\n                    left: 50%;\n                    top: 100px;\n                }\n                \n                \n                \n                "));
         }
     }]);
 
@@ -66,4 +67,4 @@ var ReservationSection = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = ReservationSection;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvUmVzZXJ2YXRpb25TZWN0aW9uL1Jlc2VydmF0aW9uU2VjdGlvbi5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIlJlc2VydmF0aW9uU2VjdGlvbiIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPOzs7Ozs7Ozs7SSxBQUdEOzs7Ozs7Ozs7OztpQ0FFTyxBQUNMO21DQUNJLGNBQUEsU0FBSyxXQUFMLEFBQWU7OEJBQWY7Z0NBQUE7QUFBQTthQUFBLEVBRUksc0RBQUssS0FBTCxBQUFTOzhCQUFUO2dDQUZKLEFBRUksQUFDQTtBQURBO2dDQUNBLGNBQUE7OzhCQUFBO2dDQUFBO0FBQUE7QUFBQSxlQUpSLEFBQ0ksQUFHSSxBQWdCWDs7Ozs7RUF2QjRCLGdCQTBCakMsQSxBQTFCdUM7O2tCQTBCdkMsQUFBZSIsImZpbGUiOiJSZXNlcnZhdGlvblNlY3Rpb24uanMiLCJzb3VyY2VSb290IjoiL21lZGlhL3NhYnJpbi8wMUQyMTZBQjI2MDUwRTkwL2ludGVydmlld3NfQ2hhbGxlbmdlcy9uZXh0LXB3YS9uZXh0anMtcHdhIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvUmVzZXJ2YXRpb25TZWN0aW9uL1Jlc2VydmF0aW9uU2VjdGlvbi5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIlJlc2VydmF0aW9uU2VjdGlvbiIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPOzs7Ozs7Ozs7SSxBQUdEOzs7Ozs7Ozs7OztpQ0FFTyxBQUNMO21DQUNJLGNBQUEsU0FBSyxXQUFMLEFBQWU7OEJBQWY7Z0NBQUEsQUFDSTtBQURKO2FBQUEsa0JBQ0ksY0FBQTs7OEJBQUE7Z0NBQUE7QUFBQTtBQUFBLGVBREosQUFDSSxBQUVBLGdDQUFBLGNBQUE7OzhCQUFBO2dDQUFBO0FBQUE7QUFBQSxlQUpSLEFBQ0ksQUFHSSxBQWVYOzs7OztFQXRCNEIsZ0JBeUJqQyxBLEFBekJ1Qzs7a0JBeUJ2QyxBQUFlIiwiZmlsZSI6IlJlc2VydmF0aW9uU2VjdGlvbi5qcyIsInNvdXJjZVJvb3QiOiIvbWVkaWEvc2FicmluLzAxRDIxNkFCMjYwNTBFOTAvaW50ZXJ2aWV3c19DaGFsbGVuZ2VzL25leHQtcHdhL25leHRqcy1wd2EifQ==
