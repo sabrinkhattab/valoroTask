@@ -1,7 +1,7 @@
 {
   "name": "pwa-nextjs",
   "version": "1.0.0",
-  "description": "A Hacker News Reader built using Next.JS",
+  "description": "valoro Task",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
