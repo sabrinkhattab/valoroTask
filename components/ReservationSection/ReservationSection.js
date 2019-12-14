@@ -7,7 +7,7 @@ class ReservationSection extends React.Component{
         return(
             <div className="reservation-wrapper">
                 <h1>Reservation</h1>
-                {/*<img src="/reservation.png"/>*/}
+                {<img src="/static/reservation.png"/>}
                 <style>{`
                 .reservation-wrapper{
                     width : 300px;
