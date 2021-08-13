@@ -23,7 +23,7 @@
     "css-loader": "^3.3.2",
     "isomorphic-fetch": "^2.2.1",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^4.1.4",
+    "next": "^11.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-timestamp": "^5.1.0",
